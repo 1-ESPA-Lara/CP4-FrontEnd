@@ -5,7 +5,6 @@
 body {
     background-color: white;
     color: black;
-    font-family: "Georgia", serif;
     margin: 0;
 }
 
@@ -191,3 +190,200 @@ form button:hover{
     background:#465940;
 }
 
+
+
+.carrinho-container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.carrinho-container h2{
+color:#465940;
+margin-bottom:30px;
+}
+
+.carrinho{
+display:flex;
+flex-direction:column;
+gap:25px;
+}
+
+.produto{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.produto img{
+width:90px;
+border-radius:8px;
+}
+
+.produto-info{
+flex:1;
+margin-left:20px;
+}
+
+.produto-info h3{
+margin:0;
+color:#465940;
+}
+
+.produto-info p{
+margin:3px 0;
+color:#555;
+font-size:14px;
+}
+
+.quantidade{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.quantidade button{
+border:none;
+background:#8ba185;
+color:white;
+width:30px;
+height:30px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.quantidade span{
+font-weight:bold;
+}
+
+.preco{
+font-weight:bold;
+color:#465940;
+margin-left:20px;
+}
+
+.remover i{
+font-size:20px;
+color:#75926d;
+cursor:pointer;
+margin-left:20px;
+}
+
+.remover i:hover{
+color:red;
+}
+
+.checkout{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+gap:40px;
+margin-top:40px;
+}
+
+.frete{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+width:50%;
+}
+
+.frete h3{
+color:#465940;
+margin-bottom:15px;
+}
+
+.frete-box{
+display:flex;
+gap:10px;
+}
+
+.frete-box input{
+flex:1;
+padding:10px;
+border:1px solid #8ba185;
+border-radius:8px;
+font-family:Georgia, serif;
+}
+
+.frete-box button{
+padding:10px 18px;
+border:none;
+background:#75926d;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+.frete-box button:hover{
+background:#465940;
+}
+
+.frete-info{
+font-size:13px;
+margin-top:10px;
+color:#555;
+}
+
+.resumo{
+width:350px;
+background:#FDFBF0;
+padding:25px;
+border-radius:10px;
+font-family:Georgia, serif;
+}
+
+.resumo h2{
+margin-bottom:20px;
+color:#465940;
+}
+
+/* linhas */
+
+.linha{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin:12px 0;
+font-size:16px;
+}
+
+.linha p{
+margin:0;
+}
+
+.linha span{
+margin:0;
+}
+
+/* total */
+
+.total-box{
+margin-top:20px;
+}
+
+.total{
+font-weight:bold;
+font-size:18px;
+}
+
+.btn-continuar{
+margin-top:25px;
+width:100%;
+padding:18px;
+border:none;
+border-radius:40px;
+background:black;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+.btn-continuar:hover{
+background:#333;
+}
