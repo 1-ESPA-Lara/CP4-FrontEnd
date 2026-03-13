@@ -11,7 +11,7 @@
 <body>
     <header>
     <div class="menu">
-      <a href="../../index.html">
+      <a href="../../index.htm">
         <img src="../assets/logo.jpeg" alt="Logo" class="logo">
       </a>
       <nav>
@@ -39,7 +39,57 @@
     </div>
   </header>
 
-  <h1>Informações</h1>
+<div class="formulario">
+    <h3>Entre em contato conosco</h3>
+    <h4>Preencha o formulário abaixo:</h4>
+</div>
+
+<form action="">
+    <fieldset>
+
+        <legend>
+            <i class="bi bi-chat-dots"></i> Formulário de Contato
+        </legend>
+
+        <h4>Digite seu nome:</h4>
+        <label for="nome">
+            <i class="bi bi-person"></i> Nome:
+        </label>
+        <input type="text" name="nome" placeholder="Digite aqui...">
+        <br><br>
+
+        <h4>Informe seu e-mail:</h4>
+        <label for="email">
+            <i class="bi bi-envelope"></i> E-mail:
+        </label>
+        <input type="text" name="email" placeholder="Digite aqui...">
+        <br><br>
+
+        <h4>Qual é o assunto?</h4>
+        <label for="assunto">
+            <i class="bi bi-tag"></i> Assunto:
+        </label>
+        <input type="text" name="assunto" placeholder="Digite aqui...">
+        <br><br>
+
+        <h4>Digite sua mensagem:</h4>
+        <label for="mensagem">
+            <i class="bi bi-pencil"></i> Mensagem:
+        </label>
+        <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem..."></textarea>
+        <br><br>
+
+        <button type="submit">
+            <i class="bi bi-send"></i> Enviar
+        </button>
+
+        <button type="reset">
+            <i class="bi bi-x-circle"></i> Limpar
+        </button>
+
+    </fieldset>
+</form>
+
 <footer class="footer">
   <h3 class="footer-title">Eco Trend</h3>
 
