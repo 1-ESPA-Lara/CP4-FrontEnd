@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>EcoTrend</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <header>
+    <div class="menu">
+      <a href="../../index.html">
+        <img src="./src/assets/logo.jpeg" alt="Logo" class="logo">
+      </a>
+      <nav>
+        <a href="./index.html" class="menu-item ativo" data-page="home">
+          <i class="bi bi-house"></i>
+          <span>Home</span>
+        </a>
+        <a href="./src/pages/categoria.html" class="menu-item" data-page="categoria">
+          <i class="bi bi-search"></i>
+          <span>Categorias</span>
+        </a>
+        <a href="./src/pages/produtos.html" class="menu-item" data-page="produto">
+          <i class="bi bi-list-ul"></i>
+          <span>Produtos</span>
+        </a>
+        <a href="./src/pages/contatos.html" class="menu-item" data-page="contato">
+          <i class="bi bi-headset"></i>
+          <span>Contato</span>
+        </a>
+        <a href="./src/pages/carrinho.html" class="menu-item" data-page="carinho">
+            <i class="bi bi-bag"></i>
+            <span>2</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="./src/assets/banner1.jpg" class="d-block w-100 banner-img" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./src/assets/banner2.jpg" class="d-block w-100 banner-img" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./src/assets/banner3.jpg" class="d-block w-100 banner-img" alt="">
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <div class="home-container">
+      <p class="text">A EcoTrend é uma marca que nasce com o propósito de unir estilo, bem-estar e consciência ambiental. Acreditamos que pequenas escolhas no dia a dia podem gerar grandes impactos, por isso buscamos oferecer produtos que incentivem um consumo mais responsável e sustentável.
+        Nossa proposta vai além de vender produtos: queremos promover uma nova forma de pensar o consumo, valorizando materiais mais conscientes, processos mais equilibrados e alternativas que respeitem o meio ambiente.
+        Cada item da EcoTrend é pensado para proporcionar qualidade, conforto e estética, sem abrir mão do compromisso com a sustentabilidade. Seja no autocuidado, na moda ou na decoração, nossa missão é tornar o sustentável acessível, bonito e presente no cotidiano das pessoas.</p>
+    </div>
+
+    <div class="featured">
+      <h2>Destaques da semana!</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./src/assets/brinco.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Brincos Sustentáveis Eco Trend</h5>
+              <p class="card-text">Esses brincos foram pensados para unir estilo e consciência ambiental, valorizando materiais mais responsáveis e processos que reduzem impactos, sem abrir mão da elegância e da leveza no dia a dia.</p>
+              <a href="./src/pages/produto.html"><button class="button-featured">Compre aqui!</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./src/assets/creme.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Creme Hidratante Sustentável Eco Trend</h5>
+              <p class="card-text">Este creme foi desenvolvido para proporcionar hidrração e cuidado com a pele, aliando bem-estar e consciência ambiental, com fórmulas equilibradas e embalagens que minimizam impactos ao meio ambiente.</p>
+              <a href="./src/pages/produto.html"><button class="button-featured">Compre aqui!</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./src/assets/labial.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lip Balm Natural Eco Trend</h5>
+              <p class="card-text">Esse lip balm combina praticidade e sustentabilidade, oferecendo cuidado diário com proposta mais natural e incentivo ao uso de produtos de beleza mais conscientes. </p>
+              <a href="./src/pages/produto.html"><button class="button-featured">Compre aqui!</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="infos">
+      <h1>Informações</h1>
+      <div class="infos-text">
+        <p>
+          Na EcoTrend, cada detalhe é pensado para oferecer uma experiência que une <span class="highlight">qualidade, estilo e responsabilidade ambiental</span>. Trabalhamos com produtos que incentivam escolhas mais conscientes, desde a seleção de materiais até a forma como chegam até você.
+          <span class="highlight">Valorizamos transparência, cuidado e compromisso com o futuro</span>, buscando sempre alternativas que reduzam impactos e promovam um consumo mais equilibrado.
+          Aqui, você encontra não apenas produtos, mas uma proposta de mudança: consumir melhor, com propósito e atenção ao que realmente importa.
+        </p>
+      </div>
+    </div>
+  </main>
+  
+<footer class="footer">
+  <h3 class="footer-title">Eco Trend</h3>
+
+  <div class="footer-info">
+
+    <div class="footer-item">
+      <i class="bi bi-envelope"></i>
+      <p>contato@ecotrend.com</p>
+    </div>
+
+    <div class="footer-item">
+      <i class="bi bi-whatsapp"></i>
+      <p>(11) 99999-9999</p>
+    </div>
+
+    <div class="footer-item">
+      <i class="bi bi-geo-alt-fill"></i>
+      <p>São Paulo - Brasil</p>
+    </div>
+
+    <div class="footer-item">
+      <i class="bi bi-instagram"></i>
+      <p>@ecotrend</p>
+    </div>
+
+  </div>
+
+  <p class="footer-copy">
+    © 2026 Eco Trend - Todos os direitos reservados
+  </p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
