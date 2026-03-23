@@ -128,7 +128,7 @@ EcoTrend/
 1. Clone este repositório:
 
 ```bash
-git clone LINK_DO_SEU_REPOSITORIO
+git clone [LINK_DO_SEU_REPOSITORIO](https://github.com/1-ESPA-Lara/CP4-FrontEnd.git)
 ```
 
 2. 
